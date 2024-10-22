@@ -1,0 +1,13 @@
+.similarInfoJobs {
+  margin: 30px 0px;
+}
+.listOfCards {
+  margin-top: 25px;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-end;
+}

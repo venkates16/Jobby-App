@@ -1,0 +1,47 @@
+.checkboxCard {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: flex-start;
+  margin: 22px 0px;
+  align-items: flex-start;
+}
+.radioCard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.inputCheckbox {
+  width: 33px;
+  margin-right: 12px;
+  cursor: pointer;
+  height: 25px;
+}
+.inputLabel {
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .halfView {
+    width: 28vw;
+  }
+  .inputCheckbox {
+    width: 28px;
+    margin-right: 12px;
+    cursor: pointer;
+    height: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .inputLabel {
+    font-size: 20px;
+  }
+  .alignFilers {
+    display: flex;
+    gap: 2px;
+  }
+}

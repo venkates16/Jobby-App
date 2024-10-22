@@ -1,0 +1,53 @@
+.searchInput {
+  outline: none;
+  border-width: 0px;
+  width: 100%;
+  height: 48px;
+  font-size: 28px;
+  background-color: rgba(69, 66, 66, 0.093);
+  color: white;
+  padding-left: 12px;
+}
+
+.inputCard {
+  background-color: rgba(69, 66, 66, 0.093);
+  border: 2px solid rgb(199, 193, 204);
+  border-radius: 6px;
+  margin-top: 20px;
+  width: 40vw;
+  height: 50px;
+  min-width: 80vw;
+  display: flex;
+}
+.searchIconBtn {
+  cursor: pointer;
+
+  background-color: #bb1717b0;
+}
+.search-icon {
+  width: 40px;
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .inputCard {
+    background-color: rgba(69, 66, 66, 0.093);
+    border: 2px solid rgb(199, 193, 204);
+    border-radius: 6px;
+    width: 40vw;
+    height: 50px;
+    min-width: 40vw;
+    display: flex;
+  }
+  .searchInput {
+    outline: none;
+    border-width: 0px;
+    width: 30vw;
+    height: 48px;
+    flex-grow: 1;
+    font-size: 28px;
+    background-color: rgba(69, 66, 66, 0.093);
+    color: white;
+    padding-left: 12px;
+  }
+}

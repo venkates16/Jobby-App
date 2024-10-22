@@ -1,0 +1,44 @@
+.alignSimilar {
+  display: flex;
+  gap: 20px;
+}
+.startCard {
+  background-color: rgb(60, 59, 59);
+  border-radius: 12px;
+  width: 350px;
+  padding: 20px;
+}
+.starCardImg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (min-width: 678px) {
+  .startCard {
+    background-color: rgb(60, 59, 59);
+    border-radius: 12px;
+    width: 420px;
+  }
+}
+.smiliarTittle {
+  font-size: 28px;
+}
+.logoname {
+  width: 55px;
+  height: 50px;
+}
+
+.imgContainerblock {
+  margin: 16px 0px;
+  font-size: 26px;
+}
+.loactionIcon {
+  display: flex;
+  gap: 6px;
+}
+
+.jobData {
+  display: flex;
+  margin: 16px 0px;
+  justify-content: space-between;
+}

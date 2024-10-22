@@ -1,0 +1,37 @@
+.SimilarContainer {
+  background-color: black;
+  min-height: 100vh;
+  margin: 12px;
+  padding: 20px;
+  color: white;
+}
+
+.alignBtn {
+  display: flex;
+
+  justify-content: center;
+}
+.alignErrorSimilar {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.errorMsg {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .jobdetailes {
+    width: 80vw;
+  }
+  .totalSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

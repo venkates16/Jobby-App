@@ -1,0 +1,15 @@
+.notFound {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgb(121, 144, 226);
+  padding: 20px;
+}
+
+@media (max-width: 400px) {
+  .notfnd {
+    width: 60vw;
+  }
+}

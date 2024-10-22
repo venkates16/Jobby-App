@@ -1,0 +1,51 @@
+.spinnerLoader {
+  text-align: center;
+}
+.profileCard {
+  background: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  border-width: 0px;
+  padding: 20px;
+  border-radius: 8px;
+
+  background-size: cover;
+}
+.btnRetry {
+  background-color: blue;
+  padding: 8px;
+  border-width: 0px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 500;
+}
+.retryCard {
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameProfile {
+  color: blue;
+}
+.profileBio {
+  font-size: 26px;
+  color: rgb(170, 40, 137);
+}
+@media (min-width: 768px) {
+  .profileCard {
+    background: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    border-width: 0px;
+    width: 30vw;
+    border-radius: 8px;
+    padding: 12px;
+    background-size: cover;
+  }
+  .retryCard {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28vw;
+  }
+}

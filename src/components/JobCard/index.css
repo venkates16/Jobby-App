@@ -1,0 +1,59 @@
+.imgCompanyLogo {
+  width: 60px;
+  height: 62px;
+}
+
+.jobCard {
+  background-color: rgba(206, 200, 200, 0.221);
+  box-shadow: 0px 2px 22px rgba(206, 200, 200, 0.221);
+  border-width: 0px;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  margin: 20px 4px;
+}
+.starContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 8px 0px;
+}
+.headdescrip {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.logoBlock {
+  display: flex;
+  gap: 20px;
+}
+.link {
+  color: white;
+}
+.title {
+  font-size: 22px;
+}
+.location {
+  display: flex;
+  gap: 12px;
+}
+.locationcon {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 2px;
+}
+
+@media (max-width: 768px) {
+  .imgCompanyLogo {
+    width: 40px;
+  }
+}
+
+.line {
+  margin: 12px 1px;
+}
+.descriptionPara {
+  font-size: 16px;
+  margin: 10px 2px;
+}

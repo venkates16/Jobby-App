@@ -1,0 +1,8 @@
+.JobsContainer {
+  background-color: rgb(18, 19, 19);
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}

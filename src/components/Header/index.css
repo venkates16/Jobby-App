@@ -1,0 +1,74 @@
+.header {
+  background-color: #272727;
+  padding: 12px 20px;
+}
+.logo {
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .logo {
+    cursor: pointer;
+    width: 90px;
+  }
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navItemsLinks {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.textNavgatores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+}
+.homeNav {
+  font-size: 28px;
+  cursor: pointer;
+  color: rgb(40, 170, 23);
+}
+.btnLogout {
+  background-color: #4f46e5;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .iconsNavSmDevices {
+    display: flex;
+
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  .navItemsLinks {
+    display: none;
+  }
+  .iconLink {
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .iconsNavSmDevices {
+    display: none;
+  }
+}
